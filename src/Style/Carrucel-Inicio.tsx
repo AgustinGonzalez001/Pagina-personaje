@@ -14,8 +14,8 @@ interface CardProps {
 
 // Adapta tus styled components para aceptar estas props
 const StyledInner = styled.div<InnerProps>`
-  --w: 270px;
-  --h: 150px;
+  --w: 30vh;
+  --h: 20vh;
   --translateZ: calc((var(--w) + var(--h)) + 0px);
   --rotateX: -15deg;
   --perspective: 1000px;
@@ -74,8 +74,8 @@ const StyledCard = styled.div<CardProps>`
 
 const StyledWrapper = styled.div`
   .wrapper {
-    width: 1050px;
-    height: 550px;
+    width: 150vh;
+    height: 90vh;
     position: relative;
     text-align: center;
     display: flex;

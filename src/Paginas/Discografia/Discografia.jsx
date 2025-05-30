@@ -3,10 +3,10 @@ import ScrollTriggered from "../../Style/Imagenes";
 function Discografia(){
     return(
         <>
-            <p className="bg-cyan-500 shadow-lg shadow-cyan-500/50 text-9xl font-bold font-sans rounded-xl p-5">
+            <p className="bg-cyan-500 shadow-lg shadow-cyan-500/50 text-4xl font-bold font-sans rounded-xl p-5">
                 Michael Jackson
             </p>
-            <p className="font-mono text-5xl w-350 h-auto p-20 bg-indigo-600/40 shadow-lg shadow-indigo-500/95 rounded-xl flex items-center justify-center flex-col">
+            <p className="font-mono text-3xl w-300 h-auto p-20 bg-indigo-600/40 shadow-lg shadow-indigo-500/95 rounded-xl flex items-center justify-center flex-col">
                 El álbum más vendido de Michael Jackson, y uno de los más vendidos en la historia de la música, 
                 es "Thriller". Con más de 70 millones de copias vendidas en todo el mundo, este disco de 1982 
                 ha superado las expectativas y continúa siendo un éxito. 
