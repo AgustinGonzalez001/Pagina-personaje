@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+
+@media screen and (max-width:1000px) {
+    div{
+        width: 100%;
+    }
+    
+}

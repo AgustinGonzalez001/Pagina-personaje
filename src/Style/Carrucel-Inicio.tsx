@@ -14,8 +14,8 @@ interface CardProps {
 
 // Adapta tus styled components para aceptar estas props
 const StyledInner = styled.div<InnerProps>`
-  --w: 30vh;
-  --h: 20vh;
+  --w: 23vh;
+  --h: 14vh;
   --translateZ: calc((var(--w) + var(--h)) + 0px);
   --rotateX: -15deg;
   --perspective: 1000px;
@@ -74,16 +74,20 @@ const StyledCard = styled.div<CardProps>`
 
 const StyledWrapper = styled.div`
   .wrapper {
-    width: 150vh;
-    height: 90vh;
+    width: 85vh;
+    height: 40vh;
     position: relative;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
+
+    
   }
 `;
+
+
 
 const Card = () => {
   // Datos de las tarjetas, ahora incluyendo una URL de imagen

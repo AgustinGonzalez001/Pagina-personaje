@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@media screen and (max-width:1000px) {
+    p{
+        width: 100%;
+    }
+    div{
+        width: 100%;
+        display: grid;
+        justify-items: center;
+        background-position: top;
+    }
+    
+}

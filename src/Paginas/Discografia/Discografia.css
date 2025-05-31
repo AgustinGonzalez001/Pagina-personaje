@@ -1,0 +1,29 @@
+body {
+    display: grid;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.Discografia {
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.imagenes {
+    width: 90%;
+}
+
+
+@media screen and (max-width:1000px) {
+    p{
+        width: 100%;
+    }
+    div{
+        width: 100%;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+    }
+    
+}

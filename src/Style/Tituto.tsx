@@ -14,13 +14,14 @@ const Loader = () => {
 const StyledWrapper = styled.div`
   .glitch {
     position: relative;
-    font-size: 75px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 1.2;
     color: #fff;
     letter-spacing: 5px;
     z-index: 1;
     animation: shift 1s ease-in-out infinite alternate;
+    padding: 15%;
   }
 
   .glitch:before,
@@ -31,6 +32,7 @@ const StyledWrapper = styled.div`
     top: 0;
     left: 0;
     opacity: 0.8;
+    padding: 15%;
   }
 
   .glitch:before {

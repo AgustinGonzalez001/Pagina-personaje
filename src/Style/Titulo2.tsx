@@ -35,7 +35,7 @@ const StyledWrapper = styled.div`
   }
 
   .loader>span {
-    font-size: 60px;
+    font-size: 20px;
     font-family: "franklin gothic medium",sans-serif;
     display: inline-block;
     animation: flip 2.6s infinite linear;

@@ -1,11 +1,10 @@
-import Loader2 from "../../Style/Titulo2.tsx"
+import './Bibliografia.css'
 
 function Bibliografia(){
     return(
     <>
-        <Loader2/>
 
-        <p className="  w-300 h-auto p-7 rounded-xl border-15 border-double text-red-900 text-3xl text-left font-serif grid justify-items-center bg-right bg-no-repeat bg-cover bg-orange-300/60">
+        <p className="  w-250 h-auto p-7 rounded-xl border-15 border-double text-red-900 text-2xl text-left font-serif grid justify-items-center bg-right bg-no-repeat bg-cover bg-orange-300/60">
             Michael Joseph Jackson nació el 29 de agosto de 1958. Era el octavo de los diez hijos de la familia Jackson, 
         una familia afrodescendiente de clase trabajadora que vivía en una casa de dos dormitorios en Jackson Street, 
         en Gary, Indiana, una ciudad industrial en el área metropolitana de Chicago. Su madre, Katherine Esther Scruse, 
@@ -36,9 +35,9 @@ function Bibliografia(){
         matrimonial, por lo que desde 2005 decidieron dejar de convivir y en agosto de 2010 anunciaron su separación 
         después de 60 años de matrimonio.
         <div className="flex p-5">
-            <div className="p-5 border-4 border-purple-500 border-solid w-80 h-200 bg-[url(https://i.pinimg.com/564x/d5/30/d4/d530d4b5cb0a66b43a4c639a4558c75f.jpg)] bg-cover bg-center" />
-            <div className="p-5 border-4 border-purple-500 border-solid w-100 h-200 bg-[url(https://wallpapers.com/images/hd/michael-jackson-iphone-vp9ozcqovds4dbbr.jpg)] bg-cover bg-center" />
-            <div className="p-5 border-4 border-purple-500 border-solid w-80 h-200 bg-[url(https://i.pinimg.com/736x/ca/e5/99/cae599ccff4ca94e34ff22f02cd6e6b4.jpg)] bg-cover bg-center" />
+            <div className="p-5 border-4 border-purple-500 border-solid w-70 h-200 bg-[url(https://i.pinimg.com/564x/d5/30/d4/d530d4b5cb0a66b43a4c639a4558c75f.jpg)] bg-cover bg-center" />
+            <div className="p-5 border-4 border-purple-500 border-solid w-80 h-200 bg-[url(https://wallpapers.com/images/hd/michael-jackson-iphone-vp9ozcqovds4dbbr.jpg)] bg-cover bg-center" />
+            <div className="p-5 border-4 border-purple-500 border-solid w-70 h-200 bg-[url(https://i.pinimg.com/736x/ca/e5/99/cae599ccff4ca94e34ff22f02cd6e6b4.jpg)] bg-cover bg-center" />
         </div>
         </p>
     </>
